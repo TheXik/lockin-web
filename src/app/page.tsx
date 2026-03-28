@@ -129,14 +129,14 @@ function Hero() {
       />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
-        {/* TestFlight badge */}
+        {/* Badge */}
         <div
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FFD60A]/10 border border-[#FFD60A]/20 mb-8"
           style={{ animation: "fade-in 0.6s ease-out both" }}
         >
           <span className="w-2 h-2 rounded-full bg-[#FFD60A] animate-pulse" />
           <span className="text-sm font-medium text-[#FFD60A] tracking-wide uppercase">
-            Now on TestFlight
+            Join the Waitlist
           </span>
         </div>
 
@@ -165,7 +165,7 @@ function Hero() {
 
         {/* CTAs */}
         <div
-          className="flex flex-col items-center justify-center gap-4 w-full max-w-lg"
+          className="flex flex-col items-center justify-center gap-4 w-full max-w-lg mx-auto"
           style={{ animation: "fade-in 0.6s ease-out 0.3s both" }}
         >
           <WaitlistForm />
